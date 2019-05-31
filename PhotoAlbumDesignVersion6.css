@@ -1,0 +1,85 @@
+body{
+  background-color:
+}
+.TopPage{
+
+}
+.Caption{
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  padding-top: 80px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+.Favorites{
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.Intro{
+  padding-left: 45px;
+  padding-bottom: 10px;
+}
+.F1{
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.F2{
+  padding-left: 270px;
+
+}
+.F3{
+  padding-top: 30px;
+  padding-left: 400px;
+
+}
+.AnimalsCap{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.Animals{
+
+}
+.EditsCap{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left: 40px;
+}
+.Edits{
+
+}
+.FlowersCap{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left: 40px;
+}
+.Flowers{
+
+}
+.NatureCap{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left: 40px;
+}
+.Nature{
+
+}
+.PeopleCap{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-left: 40px;
+}
+.People{
+
+}
+.Contact{
+  background-color: #735F46;
+  height: 150px;
+}
+.ConTitle{
+  text-align: center;
+  color: white;
+}
+.Con{
+  color: white;
+}
