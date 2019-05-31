@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>Photo Gallery </title>
+        <!-- Links html page to css page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="PhotoAlbumDesign.css">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+      <!-- Div for the Top part of the page. Will contain an image behind a piece of text -->
+      <div class="TopPage">
+        <h1 class="Caption" style=""> Kayla's Photo Gallery </h1>
+        <img src="BackImg.JPEG" style="width:100%">
+
+    </div>
+    <!-- Div for the introduction of the favorites. Will contain
+    images that have captions. Each photo will contain a description and a date for when each photo was taken. -->
+  <div class="Favorites">
+    <h3 class="left-align"><u> Favorites </u></h3>
+    <div class="Intro">
+      <p> The following three pictures are among the favorites that I have taken. </p>
+    </div>
+</div>
+    <!-- Div for the first favorite photo. Will be left aligned. -->
+<div class="F1">
+    <img class="materialboxed" data-caption="Picture of a pink flower. Contains extreme details. Picture taken on June 13th, 2018 at 8:21pm." width="60%" src="PF-Detail.JPG">
+</div>
+
+  <!-- Div for the second favorite photo. Will be right aligned.-->
+  <div class="F2">
+    <img class="materialboxed" data-caption="Picture of hands wearing matching rings. Picture taken on November 13th, 2017 at 7:36am." src="PF-Hands.JPG" width="40%">
+  </div>
+
+  <!-- Div for the third favorite photo. Will be left aligned.-->
+   <div class="F3">
+    <img class="materialboxed" data-caption="Close up picture of blossoming tree. Simplified background. Picture taken on May 8th, 2019 at 8:01pm." src="PF-DullFlower.JPEG" width="90%">
+  </div>
+
+  <!-- Div for the first slider, Animals. Will be centered -->
+<!-- List of Images for Animals
+  "PF-Cat.JPEG"
+  "PF-Cat2.JPEG"
+  "PF-Cat3.JPEG"
+  "PF-BirdFly.JPG"
+  "PF-BirdLine.JPG"
+  "PF-BirdSit.JPEG"
+
+-->
+<div class="AnimalsCap">
+  <h3><u> Animals </u></h3>
+</div>
+
+<div class="container">
+  <div class="carousel">
+    <div class="Animals">
+    <a class="carousel-item" href="#one!"><img src="PF-BirdSit.JPEG"></a>
+    <a class="carousel-item" href="#two!"><img src="PF-Cat3.JPEG"></a>
+    <a class="carousel-item" href="#three!"><img src="PF-BirdLine.JPEG"></a>
+    <a class="carousel-item" href="#four!"><img src="PF-Cat.JPEG"></a>
+    <a class="carousel-item" href="#five!"><img src="PF-BirdFly.JPG"></a>
+    <a class="carousel-item" href="#six!"><img src="PF-Cat2.JPEG"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Div for the second slider, Edits. Will be centered -->
+<!-- List of Images for Edits.
+"PF-FireHydrant.JPEG"
+"PF-Flag.JPEG"
+"PF-ParkBars.JPG"
+"PF-ParkSlide.JPEG"
+"PF-Family.JPEG"
+"PF-WaterEdit.JPEG"
+-->
+<div class="EditsCap">
+<h3><u> Edits </u></h3>
+</div>
+
+<div class="container">
+  <div class="carousel">
+    <div class="Edits">
+      <a class="carousel-item" href="#one!"><img src="PF-Family.JPEG"></a>
+      <a class="carousel-item" href="#two!"><img src="PF-ParkSlide.JPEG"></a>
+      <a class="carousel-item" href="#three!"><img src="PF-Flag.JPEG"></a>
+      <a class="carousel-item" href="#four!"><img src="PF-FireHydrant.JPEG"></a>
+      <a class="carousel-item" href="#five!"><img src="PF-ParkBars.JPG"></a>
+      <a class="carousel-item" href="#six!"><img src="PF-WaterEdit.JPEG"></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Div for the third carousel, Flowers. Will be centered. Nature/Flowers.-->
+<!-- List of Images for Flowers
+  "PF-Detail.JPG"
+  "PF-DullFlower.JPEG"
+  "PF-PinkFlower.JPEG"
+  "PF-YellowFlower.JPEG"
+  "PF-YellowFlowers.JPEG"
+  "PF-WhiteRainFlower.JPEG"
+-->
+<div class="FlowersCap">
+  <h3><u> Flowers </u></h3>
+</div>
+
+<div class="container">
+  <div class="carousel">
+    <div class="Flowers">
+    <a class="carousel-item" href="#one!"><img src="PF-Detail.JPG" ></a>
+    <a class="carousel-item" href="#two!"><img src="PF-YellowFlower.JPEG"></a>
+    <a class="carousel-item" href="#three!"><img src="PF-PinkFlower.JPEG"></a>
+    <a class="carousel-item" href="#four!"><img src="PF-YellowFlowers.JPEG"></a>
+    <a class="carousel-item" href="#five!"><img src="PF-WhiteRainFlower.JPEG"></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Div for the fourth slider, Nature. Will be centered. Animals.-->
+<!-- List of Images for Nature
+  "PF-Dandelion.JPEG"
+  "PF-Dandelion1.JPG"
+  "PF-Fence.JPG"
+  "PF-PinkTree.JPG"
+  "PF-PinkTree2.JPG"
+  "PF-Spider.JPEG"
+  "PF-Clouds.JPG"
+  "PF-Branch.JPEG"
+-->
+<div class="NatureCap">
+  <h3><u> Nature </u></h3>
+</div>
+
+<div class="container">
+  <div class="carousel">
+    <div class="Nature">
+    <a class="carousel-item" href="#one!"><img src="PF-Dandelion1.JPG"></a>
+    <a class="carousel-item" href="#two!"><img src="PF-Fence.JPG"></a>
+    <a class="carousel-item" href="#three!"><img src="PF-PinkTree.JPG"></a>
+    <a class="carousel-item" href="#four!"><img src="PF-Dandelion.JPEG"></a>
+    <a class="carousel-item" href="#five!"><img src="PF-PinkTree2.JPG"></a>
+    <a class="carousel-item" href="#six!"><img src="PF-Spider.JPEG"></a>
+    <a class="carousel-item" href="#six!"><img src="PF-Clouds.JPG"></a>
+    <a class="carousel-item" href="#seven!"><img src="PF-Branch.JPEG"></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Div for the fifth slider, People. Will be centered. -->
+<!-- List of Images for People
+  "PF-Rachel.JPG"
+  "PF-Homecoming.JPG"
+  "PF-Kevin.JPG"
+  "PF-Betsy.JPEG"
+  "PF-UpMom.JPG"
+  "PF-MomDad.JPG"
+-->
+<div class="PeopleCap">
+  <h3><u> People </u></h3>
+</div>
+
+<div class="container">
+  <div class="carousel">
+    <div class="People">
+    <a class="carousel-item" href="#one!"><img src="PF-MomDad.JPG"></a>
+    <a class="carousel-item" href="#two!"><img src="PF-Kevin.JPG"></a>
+    <a class="carousel-item" href="#three!"><img src="PF-Betsy.JPEG"></a>
+    <a class="carousel-item" href="#four!"><img src="PF-Rachel.JPG"></a>
+    <a class="carousel-item" href="#five!"><img src="PF-UpMom.JPG"></a>
+    <a class="carousel-item" href="#six!"><img src="PF-Homecoming.JPG"></a>
+    </div>
+  </div>
+</div>
+<div class="Contact">
+  <h3 class="ConTitle"> Other Websites and Contact Information </h3>
+  <div class="Con">
+    <p> Another <a href="https://kayla79368.github.io/Portfolio/BioPageAbout.html">website</a> that I made using html.</p>
+    <p class="right-align"> You can find more photos at my Instagram, @_oceancoconut_</p>
+    <p> Google <a href="https://sites.google.com/sbcsc.k12.in.us/kaylahobbs-site/home"> website.</a></p>
+  </div>
+</div>
+
+    </body>
+  </html>
